@@ -286,8 +286,13 @@ public class TestMain {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根
+<<<<<<< HEAD
 				x = Double.parseDouble(jTextField.getText());
 				op = "+";
+=======
+				op = "+";
+				x = Double.parseDouble(jTextField.getText());
+>>>>>>> 2693e96dc0ecb67b81b3ceadf03910aba66fb965
 				jTextField.setText("0");
 			}
 		});
@@ -301,8 +306,13 @@ public class TestMain {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根
+<<<<<<< HEAD
 				x = Double.parseDouble(jTextField.getText());
 				op = "-";
+=======
+				op = "-";
+				x = Double.parseDouble(jTextField.getText());
+>>>>>>> 2693e96dc0ecb67b81b3ceadf03910aba66fb965
 				jTextField.setText("0");
 			}
 		});
@@ -316,8 +326,13 @@ public class TestMain {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根
+<<<<<<< HEAD
 				x = Double.parseDouble(jTextField.getText());
 				op = "*";
+=======
+				op = "*";
+				x = Double.parseDouble(jTextField.getText());
+>>>>>>> 2693e96dc0ecb67b81b3ceadf03910aba66fb965
 				jTextField.setText("0");
 			}
 		});
@@ -331,8 +346,13 @@ public class TestMain {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根
+<<<<<<< HEAD
 				x = Double.parseDouble(jTextField.getText());
 				op = "/";
+=======
+				op = "/";
+				x = Double.parseDouble(jTextField.getText());
+>>>>>>> 2693e96dc0ecb67b81b3ceadf03910aba66fb965
 				jTextField.setText("0");
 			}
 		});
@@ -347,6 +367,7 @@ public class TestMain {
 			public void actionPerformed(ActionEvent e) {
 				// TODO 自动生成的方法存根
 				double y=Double.parseDouble(jTextField.getText());
+<<<<<<< HEAD
 				if(op=="+") {
 					jTextField.setText(""+(x+y));
 				}
@@ -359,6 +380,23 @@ public class TestMain {
 				if(op=="/") {
 					jTextField.setText(""+(x/y));
 				}
+=======
+				double sum=0;
+				if(op=="+") {
+					sum=x+y;
+				}
+				if(op=="-") {
+					sum=x-y;
+				}
+				if(op=="*") {
+					sum=x*y;
+				}
+				if(op=="/") {
+					sum=x/y;
+				}
+				jTextField.setText(""+sum);
+				
+>>>>>>> 2693e96dc0ecb67b81b3ceadf03910aba66fb965
 			}
 		});
 		jFrame.add(jButtondengyu);
